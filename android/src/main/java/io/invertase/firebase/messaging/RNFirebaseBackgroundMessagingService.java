@@ -21,7 +21,7 @@ public class RNFirebaseBackgroundMessagingService extends HeadlessJsTaskService 
       return new HeadlessJsTaskConfig(
         "RNFirebaseBackgroundMessage",
         messageMap,
-        60000,
+        6000,
         false
       );
     }
